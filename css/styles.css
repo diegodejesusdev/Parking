@@ -1,8 +1,29 @@
+html, body{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 .background{
     position: absolute;
     width: 100%;
     height: 100%;
     z-index: 1;
+}
+
+.all-header{
+    padding: 10px 0;
+}
+
+.logo-izq{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 46px
 }
 
 .cont-principal{
@@ -11,17 +32,35 @@
     height: 100%;
     position: relative;
     z-index: 2;
+    overflow: hidden;
 }
 
 .side-bar{
-    height: 100vh;
+    height: 100%;
 }
 
 .cont-inicio{
-    height: 100vh;
+    height: 100%;
 }
 
-.registro-texto, .registro-enlace{
+.registro-texto{
     display: inline;
-    margin-right: 5px;
+    padding-left: 59px;
+}
+
+.registro-enlace{
+    display: inline;
+    padding-left: 113px;
+}
+
+.input-login{
+    display: block;
+    margin: 25px auto;
+    width: 75%;
+}
+
+.logo-inicio{
+    width: 300px;
+    object-fit: contain;
+    height: auto;
 }

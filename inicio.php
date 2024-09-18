@@ -3,7 +3,6 @@
     require_once 'views/sidebar.php';
 ?>
 
-<div class="cont-inicio">
-    <img src="assets/images/logo.png" alt="Logo Parking" style="margin-top: 100px">
-    <h4>Car Parking</h4>
+<div class="cont-inicio d-flex justify-content-center">
+    <img class="logo-inicio" src="assets/images/logo.png" alt="Logo Parking">
 </div>
