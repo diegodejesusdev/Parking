@@ -1,7 +1,5 @@
 <?php
 
-use models\Usuario;
-
 require_once 'models/Usuario.php';
     class  UsuarioController{
         public function obtenerTodos(){
